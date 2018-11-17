@@ -43,7 +43,7 @@ def k_means(k,X,y,maxiter=300):
     return columns
 
 
-if __name__==__main__:
+if __name__=="__main__":
     
     
     k_means(3,features,300)
