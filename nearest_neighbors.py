@@ -44,7 +44,7 @@ def NearestNeibors(k,X,y):
         
     return accuracy
 
-if __name==__main__:
+if __name=="__main__":
     accuracies=[]
     for k in range(1,31):
         accuracies.append(NearestNeibors(k,features,targets))
